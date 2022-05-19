@@ -1,0 +1,27 @@
+.headerColor { font-weight: bold !important; }
+.headerLayout { max-width: 50% !important; font-family: 'Asap', sans-serif;
+    font-family: 'Nunito', sans-serif; }
+
+#navLink { margin-right: 20px;}
+#dropdownMenu { background-color: white; margin-right:20px; }
+#dropdownMenuItem { background-color: white; }
+
+.orderHeaderLayout{ max-width: 920px !important; }
+#orderHeaderMargin{ padding-top: 5px !important; }
+
+.headerTitle{ font-size: 20px !important; font-weight: bold !important; }
+.postCodeStyle{ height: 450px !important;}
+.postHeaderColor {background-color: #666; }
+.postHeaderRedRadio {
+    width: 12px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    padding: 1px;
+    position: absolute;
+    font-size: 8px;
+    color: white;
+
+
+}
+

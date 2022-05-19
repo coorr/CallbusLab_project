@@ -1,0 +1,106 @@
+body{
+  overflow-x: hidden;
+} 
+a {
+  text-decoration-line: none !important;
+  color:#000 !important;
+  font-family: 'Asap', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* padding: 0 50px 0 50px; */
+}
+
+table th {
+  text-align: center;
+  padding: 5px;
+}
+
+table td {
+  font-size: 13px;
+  /* text-align: center; */
+}
+
+
+
+.dropdown-toggle::after { display:none !important; }
+.dropdown-toggle{ background-color: #3f7bd4; border: 0px;}
+.dropdown-toggle:hover{ background-color: #3f7bd4; border: 0px;}
+.dropdown-item { font-size: 13px; }
+.dropdown-menu { border: 1px solid white !important; margin-top: 0px !important; }
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+.card {
+  background-color: #f7f7f7;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border:1px solid #eee !important;
+}
+
+.form-control {
+  border: 0px !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0px !important;
+}
+.form-control:hover 
+{
+  border: 0px !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0px !important; 
+  background-color: white !important;
+}
+.form-control:focus  { 
+  border-bottom: 1px solid black !important; 
+  box-shadow: none !important; 
+}
+.btn-primary { 
+  width: 100% ; background-color: white !important; 
+  color:black !important; 
+  border: 1px solid black !important; 
+  border-radius: 0px !important; 
+} 
+.card-body {
+  padding: 0 !important;
+  padding-top: 0.5rem !important;
+}
+.h5{
+  margin-bottom: 0 !important;
+}
+
+.nav-link {
+  color: #000 !important;
+  font-size: 14px;
+  padding-right: 2.5rem !important;
+}
+
+.middle_space_screen {
+  height: 200px;
+}
+.font_family {
+  font-family: 'Asap', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+  .middle_space_screen {
+      height: 0;
+  }
+}
+.list-group-item {
+  border: 0px !important;
+  color: #9A9A9A !important;
+  font-size: 14px !important;
+}
+input[type="text"]:disabled {
+  background: white;
+}
+/* .row>* {
+  padding: 0 !important;
+} */
