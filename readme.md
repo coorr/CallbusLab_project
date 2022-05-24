@@ -97,7 +97,7 @@ back port : 7001
 게시글 테이블의 수정/삭제/생성 시간을 통해 히스토리를 파악할 수 있습니다.
 
 ## 캡처
-![image](https://github.com/coorr/Algorithm/blob/main/img/baslab/baslab_main.png)
+![image](https://github.com/coorr/Algorithm/blob/main/img/baslab/basleb_main.png)
 
 ![image](https://github.com/coorr/Algorithm/blob/main/img/baslab/baslab_write.png)
 
