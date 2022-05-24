@@ -22,6 +22,12 @@ const Register =  ({show, onHide})  => {
         } else if(password === '') {
             return alert("패스워드를 입력해주세요")
         }
+        if(username.length < 3 || username.length > 20) {
+            return alert("아이디는 영문소문자 또는 숫자 4~20자로 입력해 주세요.")
+        }
+        if(password.length < 6 || password.length > 16) {
+            return alert("비밀번호는 영문소문자 또는 숫자 4~16자로 입력해 주세요.")
+        }
 
 
         dispatch({
@@ -30,7 +36,7 @@ const Register =  ({show, onHide})  => {
             password,
             authen
         })
-  })
+  },[username,password,authen])
   return (
     <>
         <Modal
@@ -75,8 +81,6 @@ const Register =  ({show, onHide})  => {
                 </Form.Group>
                 </Container>
             </Modal.Body>
-
-            
         </Modal>
     </>
   )

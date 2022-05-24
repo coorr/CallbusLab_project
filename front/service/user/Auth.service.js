@@ -6,7 +6,7 @@ const API_URL = config+"api/user/";
 class AuthService {
   login(username, password) {
     return axios
-      .post(API_URL + "signin", {
+      .post(API_URL + "login", {
         username,
         password
       },)

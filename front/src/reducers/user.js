@@ -13,13 +13,8 @@ export const initialState = {
     signupDone: false,
     signupError: null,
 
-
-
     
 }
-
-
-
 
 export const LOG_IN_REQUEST = 'LOG_IN_REQUEST';
 export const LOG_IN_SUCCESS = 'LOG_IN_SUCCESS';
@@ -55,7 +50,6 @@ const reducer = (state = initialState, action) => {
             case LOG_IN_SUCCESS:
                 draft.logInLoading=false;
                 draft.logInDone=true;
-                draft.userId= action.data;
                 break;
             case LOG_IN_FAILURE:
                 draft.logInDone=false;
